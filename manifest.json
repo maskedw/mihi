@@ -1,0 +1,15 @@
+{
+    "name": "MIHI",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "選択範囲のMarkdown画像表示テキストをHTMLのimgタグに変換してクリップボードに保存します",
+    "permissions" : [
+      "http://*/*", "https://*/*", "contextMenus", "activeTab"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  }
+  
